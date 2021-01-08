@@ -1,0 +1,494 @@
+body{
+    font: 15px, 1.5, Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #E8E2D2;
+}
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button_1{
+    height: 38px;
+    background: #5d3713;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #e1cea3;
+    cursor: pointer;
+}
+
+.dark{
+    padding: 15px;
+    background: #e1cea3;;
+    color: #5d3713;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* Header */
+header{
+    background-color: #e1cea3;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #5d3713 3px solid;
+}
+
+header a{
+    color: #6b6b6b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+    position: relative;
+}
+
+header .logo{
+    float: left;
+}
+
+header .logo h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+.cart-page {
+    float: right;
+}
+
+.cart-page img{
+    width: 30px;
+    height: 30px;
+}
+
+header .current a{
+    color: #5d3713;
+    font-weight: bold;
+}
+header a:hover{
+    color:#b98b2d;
+    font-weight: bold;
+}
+
+/*Showcase*/
+
+.showcase{
+    min-height: 400px;
+    background: url(../images/blur-book-stack-books-bookshelves-590493.jpg) no-repeat -500px -500px;
+    text-align: center;
+    color: #E8E2D2;
+}
+
+.showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.showcase p{
+    font-size: 20px;
+}
+
+/*NewsLetter*/
+
+.newsletter{
+    padding: 15px;
+    color: #5d3713;
+    background: #e1cea3;
+}
+
+.newsletter h1{
+    float: left;
+}
+
+.newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+.newsletter input[type="text"]{
+    padding: 4px;   
+    height: 25px;
+    width: 250px;
+}
+
+/*Boxes*/
+
+.boxes {
+    margin-top: 20px;
+}
+
+.boxes .box{
+    float: left;
+    text-align: center;
+    color: #b98b2d;
+    width: 30%;
+    padding: 20px 10px 10px 10px;
+}
+
+.boxes .box img{
+    width: 200px;   
+}
+
+/*Sidebar*/
+
+.sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.sidebar .quote input,.sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+.quote-button{
+    padding: 10px 40px;
+    display: inline-block;
+    color: #e4c96b;
+    background-color: #5d3713;
+}
+
+.drop-content{
+    position: absolute;
+    z-index: 1;
+}
+
+.drop-content a{
+    display:block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #b98b2d;
+    background-color: #5d3713;
+    padding: 10px 40px;
+    margin-top: 2px;
+}
+
+
+/*Main-col */
+
+article.main-col{
+    float: left;
+    width: 65%;
+    color: #b98b2d;
+}
+
+article.add-col{
+    float: left;
+    width: 65%;
+    color: #b98b2d;
+}
+
+h1.page-title{
+    color: #5d3713;
+}
+
+h1.Contact-title{
+    color: #5d3713;
+}
+
+article .test{
+    padding-top: 10px;
+}
+
+article .test a{
+    color: #b98b2d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article .test a:hover{
+    color: #5d3713;
+}
+/* footer */
+footer{
+    border-top:  #b98b2d 3px solid;
+    padding: 20px;
+    margin-top: 20px;
+    color: #e1cea3;
+    background-color: #5d3713;
+}
+
+.darker{
+    padding: 15px;
+    background: #e1cea3;
+    color: #5d3713;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bottom-quote{
+    text-align: left;
+}
+
+article.bottom-col{
+    float: left;
+    text-align: left;
+    width: 65%;
+    color: #b98b2d;
+    border-bottom: #e4c96b 1px solid;
+}
+
+.bottom{
+    text-align: center;
+}
+
+/*products */
+
+.shop-item {
+    margin: 30px;
+}
+
+.buy-book-head {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #5d3713;
+    margin-bottom: 15px;
+}
+
+.buy-book-image {
+    height: 250px;
+    border: #b98b2d 3px solid ;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.buy-book-price {
+    flex-grow: 1;
+    color: #6b6b6b;
+    font-weight: bold;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #e6e6e6;
+}
+    
+/*     Cart     */
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.section-header {
+    font-weight: bold;
+    color: #5d3713;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.cart-list {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #b98b2d;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-book-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-book-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-book-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-book-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.remove {
+    color: #5d3713;
+    background-color: #e4c96b;
+    border: none;
+    border-radius: .3em;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.remove:hover {
+    background-color: red;
+}
+
+.cart-qinput {
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #b98b2d;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-book-row:last-child {
+    border-bottom: 1px solid #b98b2d;
+}
+
+.cart-book-row:last-child .cart-list {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-price {
+    color: #6b6b6b;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.btn-shop {
+    display: block;
+    margin: 30px auto 70px auto;
+    font-size: 1em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.btn-primary {
+    color: #E8E2D2;
+    background-color: #5d3713;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #b98b2d;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+/*Media Queries*/
+
+@media all and (max-width: 768px)
+{
+    header .logo,
+    header nav,
+    header nav li,
+    .newsletter h1,
+    .newsletter form,
+    .boxes .box,
+    article.main-col,
+    article.bottom-col,
+    aside.sidebar,
+    section.product-col,
+    .product-container{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cart-book-title{
+        display: none;
+    }
+    .drop-content{
+        z-index: 1;
+        position: relative;
+
+    }
+    .page-title{
+        text-align: center;
+    }
+
+    header .container{
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+
+    header li{
+        padding:  0 5px 0 5px;
+    }
+    
+    article.add-col{
+        float: none;
+        width:100%;
+    }
+
+    .showcase h1{
+        margin-top: 40px;
+    }
+    
+
+    .Listing{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter button, .quote button{
+        display: block;
+        width: 100%;
+    }
+
+    .newsletter form input[type="text"], .quote input, .quote textarea {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+}
